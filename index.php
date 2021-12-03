@@ -87,6 +87,8 @@ $faqs = [
 
 
 <main>
+<div class="faqs">
+
 
 <?php
 foreach ($faqs as $faq) {
@@ -107,8 +109,13 @@ foreach ($faqs as $faq) {
 <?php
 }
 ?>
+
+</div>
 </main>
-<footer></footer>
+
+<footer>
+
+</footer>
 
 
 </body>

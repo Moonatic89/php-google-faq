@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+}
+
+.navTop span {
+    font-size: 2.5rem;
+}
+
+.navTop>* {
+    padding: 1rem;
+}
+
+.navTop>img {
+    width: 200px;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navBar ul li {
+    padding: 1rem 0;
+    margin: 0rem 1.5rem;
+}
+
+.botBorder {
+    border-bottom: 1px solid black;
+}
+
+.blueText {
+    color: cadetblue;
+    border-bottom: 4px solid cadetblue;
+}
